@@ -1,0 +1,67 @@
+{
+  "_from": "s600-cos",
+  "_id": "s600-cos",
+  "_inBundle": false,
+  "_integrity": "sha512-67qJ2LtNq+9Lv6k6yfTjA3oRxLuONW2PCtOhuzz1WQIKWyxTLh9CWzuz8ndA2c8bFr1DkfF2R4cD0Og5gDlyKQ==",
+  "_location": "/s600-cos",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "s600-cos",
+    "name": "s600-cos",
+    "escapedName": "s600-cos",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/s600-cos/-/s600-cos-0.0.1.tgz",
+  "_shasum": "99a76d3a765fecd5dcb8b7595c7eeec9f1088b3b",
+  "_spec": "s600-cos",
+  "author": {
+    "name": "francislyj"
+  },
+  "bugs": {
+    "url": "https://github.com/francislyj/s600-cos/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "conf": "^7.1.2",
+    "mime-types": "^2.1.24",
+    "request": "^2.88.0",
+    "xml2js": "^0.4.19"
+  },
+  "deprecated": false,
+  "description": "cos nodejs sdk s600",
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "qcloud-cos-sts": "^3.0.0"
+  },
+  "homepage": "https://github.com/francislyj/s600-cos#readme",
+  "keywords": [
+    "tencent",
+    "tencent cloud",
+    "qcloud",
+    "cos",
+    "cos-sdk"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "s600-cos",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francislyj/s600-cos.git"
+  },
+  "scripts": {
+    "csp": "mocha test/csp.js",
+    "demo": "node demo/demo.js",
+    "demo-sts": "node demo/demo-sts.js",
+    "demo-sts-scope": "node demo/demo-sts-scope.js",
+    "test": "mocha test/test.js"
+  },
+  "version": "0.0.4"
+}
