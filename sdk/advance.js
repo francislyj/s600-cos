@@ -627,7 +627,9 @@ async function uploadSliceList(params, cb) {
                 });
             });
             if(!!SleepTime){
+                console.log('advance begin sleep =========>', new Date());
                 await sleep(SleepTime);
+                console.log('advance end sleep ==========>', new Date());
             }
         }
         if (!self._isRunningTask(TaskId)) return;
